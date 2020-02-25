@@ -1,0 +1,28 @@
+import lcddriver
+import time
+
+display = lcddriver.lcd()
+display.lcd_display_string("                ", 1)
+display.lcd_display_string("   S", 1)
+time.sleep(0.1)
+display.lcd_display_string("   Sy", 1)
+time.sleep(0.1)
+display.lcd_display_string("   Sys", 1)
+time.sleep(0.1)
+display.lcd_display_string("   Syst", 1)
+time.sleep(0.1)
+display.lcd_display_string("   Syste", 1)
+time.sleep(0.1)
+display.lcd_display_string("   System", 1)
+time.sleep(0.1)
+display.lcd_display_string("   System O", 1)
+time.sleep(0.1)
+display.lcd_display_string("   System On", 1)
+
+display.lcd_display_string("Waiting.", 2)
+time.sleep(0.2)
+display.lcd_display_string("Waiting..", 2)
+time.sleep(0.2)
+display.lcd_display_string("Waiting...", 2)
+time.sleep(0.2)
+display.lcd_display_string("Waiting....", 2)
